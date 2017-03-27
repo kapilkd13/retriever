@@ -1,0 +1,37 @@
+This is a Test sample for Python Interface for retriever.
+
+Currently Install, Fetch and ListScript function has been defined in this test sample. This code is present in interface.py module in retriever directory
+
+Right now using this sample code we can fetch, install data from/in CSV, JSON, MYSQL, SQLITE, POSTGRES databases.
+
+This sample code has been tested on 'iris' and  'bird-size' datasets
+
+To use this sample retriever package:
+
+We need following libraries
+
+1. sqlalchemy : pip install sqlalchemy
+2. pandas :pip install pandas
+3. Pymysql : pip install pymysql
+
+
+Steps involved:
+
+1. clone this repository.
+2. cd retriever
+3. pip uninstall retriever    =>if you have a retriever package
+4. sudo python setup.py install or sudo pip install . => To create a retriever package
+
+ Code to test this implementation is also included in this repository in retriever/pythonInterface directory
+
+5. Make appropriate changes in Connection.conn file (for mysql and postgres)
+
+6. cd pythonInterface
+
+7. python checkInterface.py
+
+Output of all functions will be printed to console
+
+Test code is present in retriever/pythonInterface/checkInterface.py file
+
+
